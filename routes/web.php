@@ -14,3 +14,25 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+/*
+Route::get('/pagina1/{num_table}', function ($num_table) {
+    return view('pagina1',
+    [
+
+        'num_table'=> $num_table,
+       
+
+    ]);
+
+    */
+
+    Route::get('/pagina1', function () {
+        return view('pagina1',[
+    
+            
+    
+        ]);
+    
+    
+    });
